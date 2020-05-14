@@ -28,7 +28,7 @@
 <config>
     <global>
         <install>
-            <date><![CDATA[Sun, 10 May 2020 21:16:10 +0000]]></date>
+            <date><![CDATA[Thu, 14 May 2020 02:25:49 +0000]]></date>
         </install>
         <crypt>
             <key><![CDATA[f7b9d8f6f3510e3f8ef47b7e9a0f716b]]></key>
@@ -43,7 +43,7 @@
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[root]]></username>
                     <password><![CDATA[root]]></password>
-                    <dbname><![CDATA[mangetolocal]]></dbname>
+                    <dbname><![CDATA[sample_data_magento]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
