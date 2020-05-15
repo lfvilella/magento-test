@@ -1,15 +1,14 @@
-<?xml version="1.0" enconding="UTF-8"?>
-
+<?xml version="1.0" encoding="UTF-8" ?>
 <layout>
-    <catalog_product_view>
-        <reference name="head">
-            <action method="addCss">
-                <css>css/produto.css</css>
-            </action>
-            <action method="addItem">
-                <type>skin_js</type>
-                <caminho>js/produto.js</caminho>
-            </action>
+    <default>
+        <remove name="footer.newsletter"/>
+        <remove name="global_notices"/>
+    </default>
+    <catalog_category_view>
+        <reference name="footer">
+            <block name="ola" type="core/text">
+                <action method="setText"><texto>Ola Mundo</texto></action>
+            </block>
         </reference>
-    </catalog_product_view>
+    </catalog_category_view>
 </layout>
