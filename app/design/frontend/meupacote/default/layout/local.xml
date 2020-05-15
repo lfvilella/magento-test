@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <layout>
-    <default>
+<default>
+    <reference name="content">
+        <block name="inteligente" type="core/template" template="home/inteligente.phtml"/>
+    </reference>
+</default>
+
+
+    <!-- <default>
         <remove name="footer.newsletter"/>
-        <remove name="global_notices"/> <!-- Aqui eu da pra tirar e colocar 'Segue no Instagram' -->
+        <remove name="global_notices"/>
     </default>
     <catalog_category_view>
         <reference name="footer">
@@ -10,5 +17,5 @@
                 <action method="setText"><texto>Ola Mundo</texto></action>
             </block>
         </reference>
-    </catalog_category_view>
+    </catalog_category_view> -->
 </layout>
