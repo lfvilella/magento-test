@@ -2,7 +2,7 @@
 <layout>
     <default>
         <remove name="footer.newsletter"/>
-        <remove name="global_notices"/>
+        <remove name="global_notices"/> <!-- Aqui eu da pra tirar e colocar 'Segue no Instagram' -->
     </default>
     <catalog_category_view>
         <reference name="footer">
