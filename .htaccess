@@ -247,3 +247,7 @@
         Deny from all
 
     </Files>
+
+
+
+SetEnv Mage_IS_DEVELOPER_MODE true
