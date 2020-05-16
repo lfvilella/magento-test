@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <layout>
-    <default>
+    <PRODUCT_TYPE_configurable>
+         <reference name="head">
+            <action method="addJs">
+                <js>configuravel.js</js>
+            </action>
+        </reference>
+    </PRODUCT_TYPE_configurable>
+
+
+    <!-- <default>
         <remove name="footer.newsletter"/>
         <reference name="footer">
             <block name="telefone.rodape" type="cms/block">
@@ -13,7 +22,7 @@
                 <js>custom_validation.js</js>
             </action>
         </reference>
-    </default>
+    </default> -->
 
 
     <!-- <default>
