@@ -7,6 +7,12 @@
                 <action method="setBlockId"><param>telefone</param></action>
             </block>
         </reference>
+
+        <reference name="head">
+            <action method="addJs">
+                <js>custom_validation.js</js>
+            </action>
+        </reference>
     </default>
 
 
