@@ -9,8 +9,10 @@
     </PRODUCT_TYPE_configurable>
 
 
-    <!-- <default>
+    <default>
         <remove name="footer.newsletter"/>
+        <remove name="global_notices"/>
+
         <reference name="footer">
             <block name="telefone.rodape" type="cms/block">
                 <action method="setBlockId"><param>telefone</param></action>
@@ -21,26 +23,23 @@
             <action method="addJs">
                 <js>custom_validation.js</js>
             </action>
+
+            <action method="addCss">
+                <css>produto.css</css>
+            </action>
         </reference>
-    </default> -->
 
-
-    <!-- <default>
         <reference name="content">
             <block name="inteligente" type="core/template" template="home/inteligente.phtml"/>
         </reference>
-    </default> -->
 
-
-    <!-- <default>
-        <remove name="footer.newsletter"/>
-        <remove name="global_notices"/>
     </default>
+
     <catalog_category_view>
         <reference name="footer">
             <block name="ola" type="core/text">
                 <action method="setText"><texto>Ola Mundo</texto></action>
             </block>
         </reference>
-    </catalog_category_view> -->
+    </catalog_category_view>
 </layout>
